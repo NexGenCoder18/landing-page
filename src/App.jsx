@@ -3,6 +3,8 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Workflow from "./components/Workflow"
 import Price from './components/Price'
+import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
       <FeatureSection />
       <Workflow />
       <Price />
+      <Testimonials />
+      <Footer />
       </div>
     </>
   )
